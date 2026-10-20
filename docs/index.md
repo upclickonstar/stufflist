@@ -1,11 +1,11 @@
 ---
-title: Welcome
+title: FreeStuffHub
 layout: home
 description: The largest collection of free stuff on the internet!
 
 hero:
-  name: freemediaheckyeah
-  tagline: The largest collection of free stuff on the internet!
+  name: FreeStuffHub
+  tagline: A big collection of free resources on the internet!
   announcement:
     title: October Updates 🎃
     link: /posts/oct-2026
