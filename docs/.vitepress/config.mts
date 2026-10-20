@@ -26,15 +26,15 @@ import { replaceNoteLink } from './utils/markdown'
 
 const baseUrl = process.env.GITHUB_ACTIONS ? '/edit' : '/'
 export default defineConfig({
-  title: 'ABCD',
+  title: 'FMHY',
   description: meta.description,
-  titleTemplate: ':title • thefreestuff',
+  titleTemplate: ':title • FREEMEDIAHACKYEAH',
   lang: 'en-US',
   lastUpdated: false,
   cleanUrls: true,
   appearance: true,
   base: baseUrl,
-  scrollOffset: { selector: '.ABCD-scroll-inset', padding: 0 },
+  scrollOffset: { selector: '.FMHY-scroll-inset', padding: 0 },
   srcExclude: ['README.md', 'public/single-page.md', 'single-page'],
   ignoreDeadLinks: true,
   sitemap: {
@@ -44,13 +44,13 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#7bc5e4' }],
     ['meta', { name: 'og:type', content: 'website' }],
     ['meta', { name: 'og:locale', content: 'en' }],
-    ['link', { rel: 'icon', href: '/ABCD.ico' }],
+    ['link', { rel: 'icon', href: '/FMHY.ico' }],
     [
       'link',
       {
         rel: 'alternate',
         type: 'application/rss+xml',
-        title: 'ABCD RSS Feed',
+        title: 'FMHY RSS Feed',
         href: '/feed.rss'
       }
     ],
@@ -294,13 +294,13 @@ export default defineConfig({
         `<br/> This site does not host any files.`
     },
     editLink: {
-      pattern: 'https://github.com/ABCD/edit/edit/main/docs/:path',
+      pattern: 'https://github.com/FMHY/edit/edit/main/docs/:path',
       text: '📝 Edit this page'
     },
     outline: 'deep',
     logo: {
-      src: '/ABCD.ico',
-      alt: 'ABCD Logo'
+      src: '/FMHY.ico',
+      alt: 'FMHY Logo'
     },
     nav,
     sidebar,
