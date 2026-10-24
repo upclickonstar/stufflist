@@ -105,49 +105,8 @@ export const commitRef =
 export const feedback = `<a href="/feedback" class="feedback-footer">Made with ❤</a>`
 
 export const socialLinks: DefaultTheme.SocialLink[] = []
-  { icon: 'github', link: 'https://github.com/fmhy/edit' },
-  { icon: 'discord', link: 'https://github.com/fmhy/FMHY/wiki/FMHY-Discord' },
-  {
-    icon: 'reddit',
-    link: 'https://reddit.com/r/FREEMEDIAHECKYEAH'
-  }
-]
 
 export const nav: DefaultTheme.NavItem[] = []
-  { text: '📚 Beginners Guide', link: '/beginners-guide' },
-  { text: '📑 Changelog', link: '/posts/changelog-sites' },
-  {
-    text: '🛠️ Tools',
-    items: [
-      { text: '🔎 FMHY Search', link: '/posts/search' },
-      { text: '🚀 Startpage', link: '/startpage' },
-      { text: '🇸 SearXNG', link: 'https://searx.fmhy.net/' },
-      { text: '🛡️ SafeGuard', link: 'https://github.com/fmhy/FMHY-SafeGuard' },
-      {
-        text: '🔖 Bookmarks',
-        link: 'https://github.com/mian196/fmhy-bookmarks-extension'
-      },
-      { text: '🖥️ Selfhosting', link: '/other/selfhosting' }
-    ]
-  },
-  {
-    text: '➕ More',
-    items: [
-      { text: '❓ FAQs', link: '/other/FAQ' },
-      { text: '🤝 Contributing', link: '/other/contributing' },
-      { text: '💬 Feedback', link: '/feedback' },
-      { text: '💾 Backups', link: '/other/backups' },
-      { text: '📖 Piracy Glossary', link: 'https://fluffle.cc/piracyglossary' },
-      { text: '🕊️ SFW FMHY', link: 'https://fmhy.xyz/' },
-      { text: '🏷️ FMHY Badge', link: 'https://jmcrafter26.github.io/badges/cozy/?search=fmhy' },
-      { text: '🎨 Wallpapers', link: '/other/wallpapers' },
-      {
-        text: '💡 Site Hunting',
-        link: 'https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/find-new-sites/'
-      }
-    ]
-  }
-]
 
 export const sidebar: DefaultTheme.Sidebar | DefaultTheme.NavItemWithLink[] = [
   {
