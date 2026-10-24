@@ -108,7 +108,7 @@ export const socialLinks: DefaultTheme.SocialLink[] = []
 
 export const nav: DefaultTheme.NavItem[] = []
 
-export const sidebar: DefaultTheme.Sidebar | DefaultTheme.NavItemWithLink[] = [
+export const sidebar: DefaultTheme.Sidebar | DefaultTheme.NavItemWithLink[] = []
   {
     text: '<span class="i-twemoji:books"></span> Beginners Guide',
     link: '/beginners-guide'
