@@ -10,7 +10,8 @@ hero:
     title: October Updates 🎃
   image:
     src: test.png
-    alt: ABCD Icon
+    alt: FreeStuffHub Icon
+  actions: []
 
 
 features:
