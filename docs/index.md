@@ -8,23 +8,10 @@ hero:
   tagline: A big collection of free resources on the internet!
   announcement:
     title: October Updates 🎃
-    link: /posts/oct-2026
   image:
     src: test.png
-    alt: FMHY Icon
-  actions:
-    - theme: brand
-      text: See Beginners Guide
-      link: /beginners-guide
-    - theme: alt
-      text: Posts
-      link: /posts
-    - theme: alt
-      text: Contribute
-      link: /other/contributing
-    - theme: alt
-      text: Discord
-      link: https://github.com/fmhy/FMHY/wiki/FMHY-Discord
+    alt: ABCD Icon
+
 
 features:
   - title: Adblocking / Privacy
