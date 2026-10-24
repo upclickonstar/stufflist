@@ -28,3 +28,13 @@ export const excluded = [
   'sandbox.md',
   'startpage.md'
 ]
+
+// Keep these so the build doesn’t break
+export const stripSchemeAndWww = (value: string) =>
+  value.replace(/^[a-z][a-z0-9+.-]*:\/\//, '').replace(/^www\./, '')
+
+export function normalizeSearchUrl(value: string) {
+  return stripSchemeAndWww(value)
+}
+
+export const commitRef = 'dev'
